@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>زونك — Zonak</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.zonak.app</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>ar</string>
+	<!-- صلاحية الميكروفون للتفريغ الصوتي بالعامية المصرية -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>يحتاج زونك للوصول إلى الميكروفون عشان تقدر تفرّغ اللي في دماغك بصوتك وبلهجتك المصرية بكل راحة.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>يستخدم زونك التعرف على الصوت لتحويل كلامك لخطة يوم مريحة وهادية بدون مجهود.</string>
+	<!-- دعم الإشعارات المحلية المجدولة للصباح والمساء -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>

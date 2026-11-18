@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: "Readex Pro", "IBM Plex Sans Arabic", system-ui, sans-serif;
+    --font-sans: "IBM Plex Sans Arabic", "Readex Pro", system-ui, sans-serif;
+    --zonak-bg: #F5F2EA;
+    --zonak-card: #FFFFFF;
+    --zonak-action: #185FA5;
+    --zonak-streak: #F1CC51;
+    --zonak-coral: #D85A30;
+    --zonak-text: #2C2C2A;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    direction: rtl;
+    background-color: #F5F2EA;
+    color: #2C2C2A;
+  }
+
+  body {
+    background-color: #F5F2EA;
+    color: #2C2C2A;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(24, 95, 165, 0.16);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(24, 95, 165, 0.32);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

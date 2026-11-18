@@ -1,0 +1,6 @@
+{
+  "name": "زونك — Zonak",
+  "description": "مساحتك الهادية لإدارة مهامك ويومك بدون ضغط أو تأنيب ضمير، مع تفريغ دماغ ذكي وتقارير روقان أسبوعية.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

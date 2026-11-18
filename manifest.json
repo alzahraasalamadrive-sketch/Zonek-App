@@ -1,0 +1,26 @@
+{
+  "name": "زونك — Zonak | مساحتك... على راحتك",
+  "short_name": "زونك",
+  "description": "رفيق إنتاجية مصري قائم على تفريغ بلا مجهود وإنجاز بلا ذنب",
+  "lang": "ar-EG",
+  "dir": "rtl",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F2EA",
+  "theme_color": "#185FA5",
+  "icons": [
+    {
+      "src": "/assets/aistudio/zonak-00-main_735abb27.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/aistudio/zonak-00-main_735abb27.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
